@@ -1,0 +1,398 @@
+/*Ortak Class Baslangic*/
+.bosluk0px
+{
+    padding:0px;
+}
+.margin0px
+{
+    margin:0px !important;
+}
+/*Ortak Class bitis*/
+
+.max940px
+{
+    max-width:940px
+}
+.logoUstKusak
+{
+    background:url(../images/logo_ust_kusak.png) 0px 0px no-repeat;
+    width:294px;
+    height:25px;
+    position:absolute;
+    top:35px;
+}
+.ulsifirla
+{
+    margin:0px;
+    padding:0px;
+}
+.listeayar
+{
+    list-style:none;
+    display:inline-block;
+}
+.ustMenuSag
+{
+    float: right;
+    margin-top: -28px;
+    margin-right: 5px;
+
+}
+.ustMenuSag span
+{
+    color: #FFFFFF;
+    font-size: 10px;
+    background: #f39200;
+    padding: 4px 5px;
+
+
+}
+.ustMenuSag li
+{
+    padding: 1px 3px;
+    font-size: 12px;
+}
+.ustmenubg
+{
+    background: #f39200;
+    width: 100%;
+    min-height: 45px;
+    margin-top: 60px;
+    border-top-right-radius: 3px;
+    -webkit-border-top-right-radius: 3px;
+    -moz-border-top-right-radius: 3px;
+    -ms-border-top-right-radius: 3px;
+    -o-border-top-right-radius: 3px;
+
+}
+.logo
+{
+    background: url(../images/logo.png) 0px 0px no-repeat;
+    width: 167px;
+    height: 43px;
+    float: left;
+    margin: -5px 0px 0px 15px;
+}
+.menuliStil li
+{
+    padding: 0px 11px;
+    border-right: 1px solid rgb(236, 236, 236);
+
+}
+
+.carousel-indicators .active
+
+{
+    background-color: #F39200;
+}
+
+.alttan25pxMargin
+{
+    margin-bottom: 25px;
+}
+.arkabeyaz
+{
+    background:#FFFFFF;
+}
+.fiyatrenk
+{
+    color: #f39200;
+}
+.urnlist
+{
+    text-align: center;
+    margin-bottom: 40px;
+
+}
+.urnlist img
+{
+    margin: 0px auto;
+}
+.urnlist  h5
+{
+    font-weight:bold;
+}
+
+
+/* Alışveriş Kartım Başlangıç */
+.alisveriskartimsag
+{
+    background:#3e3e3e;
+    min-height:125px;
+    color:#FFF;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+}
+.alisveriskartim_baslik
+{
+    background: #2a2a2a;
+    width: 100%;
+    text-align: center;
+    padding: 10px 1px;
+    font-size: 17px;
+    border-top-left-radius: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-top-left-radius: 10px;
+    -o-border-top-left-radius: 10px;
+    -ms-border-top-left-radius: 10px;
+
+    border-top-right-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-top-right-radius: 10px;
+    -o-border-top-right-radius: 10px;
+    -ms-border-top-right-radius: 10px;
+
+}
+.alisveriskartimsag p
+{
+    font-size:12px;
+    margin-top:15px;
+    text-align:center
+}
+
+
+
+.alisveriskartimsag span
+{
+    color:#ffb655
+}
+/* Alışveriş Kartım Bitiş*/
+
+
+
+/* Ürünleri Karşılaştır Başlangıç*/
+.urunleriKarsilastirSag
+{
+    background:#ffb85a;
+    color:#FFF;
+    min-height:105px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+
+
+}
+.urunleriKarsilastir_baslik
+{
+    color: #FFF;
+    width: 100%;
+    background: #f37500;
+    text-align: center;
+    padding: 10px 1px;
+    border-top-right-radius: 10px;
+    -webkit-border-top-right-radius: 10px;
+    -moz-border-top-right-radius: 10px;
+    -o-border-top-right-radius: 10px;
+    -ms-border-top-right-radius: 10px;
+
+
+    border-top-left-radius: 10px;
+    -webkit-border-top-left-radius: 10px;
+    -moz-border-top-left-radius: 10px;
+    -o-border-top-left-radius: 10px;
+    -ms-border-top-left-radius: 10px;
+
+}
+.urunleriKarsilastirSag p
+{
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+}
+/* Ürünleri Karşılaştır Bitiş*/
+
+
+/* Topluluk ANketi Başlangıç*/
+.toplulukanketisag
+{
+    background:#fff0dd;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -o-border-radius: 10px;
+    -ms-border-radius: 10px;
+}
+.toplulukAnketi_baslik
+{
+    color: #e17e5e;
+    font-size: 17px;
+    padding: 10px 1px;
+    text-align: center;
+}
+.toplulukanketisag p
+{
+    color: #35d6f1;
+    font-size: 12px;
+    padding: 0px 0px 5px 9px;
+}
+.toplulukAnketiRadioSoldan10pxBosluk
+{
+    padding-left: 10px;
+    font-size: 12px;
+    color: #e17e5e;
+}
+.toplulukAnketiButon
+{
+    margin: 3px 0px 10px 10px;
+}
+/*Topluluk ANketi Bitiş*/
+
+
+
+/*Popüler etiketler Başlangıç*/
+.pupulerEtiketlersag
+{
+    background: #fcfcfc;
+    min-height: 25px;
+    border: none;
+    margin-bottom: 11px;
+}
+.pupulerEtiketlersag span
+{
+    font-size: 16px;
+    color: #3e3e3e;
+    font-weight: bold;
+    display: block;
+    padding: 10px 0px;
+}
+
+.pupulerEtiketlersag ul
+{
+    margin:0px;padding:0px;
+}
+
+.pupulerEtiketlersag li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 3px 3px;
+}
+/*Popüler Etiketler Bitiş*/
+
+
+/*Sosyal iconlar Başlangıç*/
+.sosyaliconlarsag
+{
+
+    min-height: 30px;
+    background-color: #FFF;
+    border: 0px;
+    box-shadow: none;
+
+}
+.sosyalico
+{
+    float:left;
+    width:30px;
+    height:30px;
+    margin-right: 11px;
+}
+.ico1
+{
+    background: url(../images/sosyal_iconlar.png) 0px -41px no-repeat;
+}
+
+.ico1:hover
+{
+    background-position:0px 0px
+}
+.iko2
+{
+    background: url(../images/sosyal_iconlar.png) -41px -41px no-repeat;
+}
+.iko2:hover
+{
+    background-position:-41px 0px
+}
+
+.ico3
+{
+    background: url(../images/sosyal_iconlar.png) -82px -41px no-repeat;
+}
+.ico3:hover
+{
+    background-position:-82px 0px
+}
+
+.ico4
+{
+    background: url(../images/sosyal_iconlar.png) -123px -41px no-repeat;
+}
+.ico4:hover
+{
+    background-position:-123px 0px
+}
+
+.ico5
+{
+    background: url(../images/sosyal_iconlar.png) -164px -41px no-repeat;
+}
+.ico5:hover
+{
+    background-position:-164px -1px
+}
+
+/*Sosyal iconlar Bitiş*/
+
+
+
+/*Sayfa alt Başlangıç*/
+.sayfaalt
+{
+
+}
+.sayfaalt ul
+{
+    margin:0px;
+    padding:0px;
+}
+.sayfaalt li
+{
+    list-style: none;
+    color: #f39200;
+    display: inline-block;
+    padding: 2px 7px;
+}
+.sayfaalt span
+{
+    color: #bcb9b8;
+    font-size: 11px;
+    display: block;
+}
+/*Sayfa alt bitiş*/
+@media screen and (max-width:768px)
+{
+
+    .logo
+    {
+        margin: 0px 0px 0px 1px;
+    }
+
+    .ustMenuSag li {
+        padding: 1px 2px;
+        font-size: 11px;
+    }
+
+    .ustMenuSag {
+        float: left;
+    }
+
+    .menuliStil li {
+        padding: 0px 0px;
+        border-bottom: 1px solid rgb(236, 236, 236);
+    }
+    .carousel-caption
+    {
+        font-size:12px
+    }
+    .sayfaalt li
+    {
+        padding: 2px 5px;
+    }
+
+}

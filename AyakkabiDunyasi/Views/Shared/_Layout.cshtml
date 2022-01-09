@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - Ayyakkabı Dunyası</title>
+    @Styles.Render("~/Content/css")
+   
+</head>
+<body>
+    <div class="container max940px">
+
+        <header>
+            <div class="logoUstKusak hidden-xs"></div>
+            <div class="ustMenuSag">
+                <ul class="ulsifirla">
+                    <li class="listeayar"><span class="glyphicon glyphicon-chevron-right"> </span> Kartım</li>
+                    <li class="listeayar"><span class="glyphicon glyphicon-chevron-right"> </span> Sipariş</li>
+                    <li class="listeayar"><span class="glyphicon glyphicon-chevron-right"> </span> Sepetim</li>
+                    <li class="listeayar"><span class="glyphicon glyphicon-chevron-right"> </span> Giriş Yap</li>
+                </ul>
+            </div>
+            <div class="ustmenubg">
+                <div class="logo"></div>
+
+            </div>
+            <nav class="navbar navbar-default margin0px">
+                <div class="container-fluid bosluk0px">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#bs-example-navbar-collapse-1">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse bosluk0px margin0px" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav menuliStil margin0px">
+                            <li><a href="#">GÜNLÜK</a></li>
+                            <li><a href="#">BARET</a></li>
+                            <li><a href="#">ÇİZME</a></li>
+                            <li><a href="#">BOT</a></li>
+                            <li><a href="#">SPOR</a></li>
+                            <li><a href="#">TERLİK</a></li>
+                            <li><a href="#">DİĞER</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </nav>
+        </header>
+        @RenderBody()
+        <footer class="clearfix sayfaalt">
+            <ul>
+                @*<li><a href="~/Views/Home/Hakkimizda.cshtml">Hakkımızda</a> </li>*@ <!--Bu kullanım yanlış-->
+                
+                <li>
+                    @Html.ActionLink("Hakkimizda", "Hakkimizda")
+                </li>
+                <li>Ürünlerimiz</li>
+                <li>Mağazalarımız</li>
+                <li>İletişim</li>
+                <li>Satış Sözleşmesi</li>
+            </ul>
+            <span>© 2021 AyyakbiDunyasi. Tüm Hakları Saklıdır.</span>
+        </footer>
+    </div>
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        @Scripts.Render("~/bundles/bootstrap")
+        @RenderSection("scripts", required: false)
+</body>
+</html>
